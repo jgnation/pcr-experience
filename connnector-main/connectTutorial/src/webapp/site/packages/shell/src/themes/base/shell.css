@@ -1,0 +1,762 @@
+/* Base theme colors*/
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+.print-visible {
+  display: none;
+}
+.phone .popover.quick-access-popover {
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: none;
+  border-radius: 0;
+  border-width: 0px;
+}
+.phone .popover.quick-access-popover .pointer-shadow-bottom {
+  border-bottom-color: #808080;
+}
+/* Global styles */
+#loginView,
+#login-form {
+  height: 100%;
+}
+.login {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+.login-outer-wrap {
+  padding: 48px 0 30px 0;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+@media (min-width: 321px) and (max-height: 400px) and (orientation: landscape) {
+  .phone .login-outer-wrap {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  .phone .company-logo {
+    margin-top: 15px;
+  }
+}
+.product-logo {
+  margin: 0 auto 0 auto;
+  max-width: 86px;
+  max-height: 86px;
+}
+.company-logo {
+  background: url(shellComponents/img/lexmark_logo.png) no-repeat 0 0;
+  background-size: contain;
+  background-position: center;
+  width: 153px;
+  height: 25px;
+  margin: 64px auto 0 auto;
+}
+.login label {
+  position: absolute;
+  overflow: hidden;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  display: block;
+  width: 260px;
+  height: 32px;
+  font-weight: bold;
+  margin: 0 auto 0 auto;
+}
+.login input[type="password"] {
+  margin-top: 12px;
+}
+.login button.sign-in {
+  display: block;
+  width: 260px;
+  height: 32px;
+  padding: 0 12px;
+  margin: 12px auto 0 auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+.login .button-panel {
+  margin: 0;
+  text-align: right;
+}
+.login .button-panel li {
+  display: inline-block;
+}
+.login .button-panel li button.icon-dots_vertical {
+  font-size: 23px;
+}
+.login .error {
+  background: #ffe5e5;
+  border: 1px solid #ff0000;
+  border-radius: 2px;
+  padding: 10px 15px;
+  margin: 1px auto 12px auto;
+  width: 260px;
+  display: none;
+  /* by default, error box will be hidden.  we will show it dynamically when message is available*/
+}
+.login .alert {
+  padding: 8px 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 260px;
+}
+.login-product-name {
+  margin: 6px auto 30px;
+  font-size: 39px;
+  text-transform: lowercase;
+  letter-spacing: -1.5px;
+}
+.phone .login-outer-wrap {
+  padding-top: 0;
+  top: 30px;
+}
+.phone .product-logo {
+  max-height: 258px;
+}
+.phone .company-logo {
+  background: url(shellComponents/img/lexmark_logo.png) no-repeat 0 0;
+  background-size: contain;
+  background-position: center;
+  width: 136px;
+  margin-top: 20px;
+  height: 23px;
+}
+.phone .login input[type="text"],
+.phone .login input[type="password"] {
+  height: 44px;
+}
+.phone #user-nav-menu-button {
+  padding: 0;
+}
+/* Login */
+.app-header {
+  display: none;
+  position: fixed;
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  overflow: visible !important;
+  z-index: 1000;
+  white-space: nowrap;
+  padding-left: 20px;
+}
+.app-header .header-bar {
+  display: table;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+.app-header .header-bar .branding-img {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 6px 0 0;
+  margin: 0 0 0 0;
+}
+.app-header .header-bar .branding-img img {
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  margin: 0;
+}
+.app-header .header-bar .branding-text {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 0 0 0;
+  padding: 0 6px 0 0;
+}
+.app-header .header-bar .branding-text h1 {
+  margin: -4px 0 0 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.app-header .header-bar .app-launcher {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+.app-header .header-bar .app-launcher .launcher-btn {
+  padding: 0;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: lowercase;
+  color: #118dcd;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: -3px 0 0 0;
+}
+.app-header .header-bar .app-launcher .launcher-btn.menu-button:hover {
+  color: #118dcd;
+}
+.app-header .header-bar .app-launcher .launcher-btn.menu-button.selected,
+.app-header .header-bar .app-launcher .launcher-btn.menu-button:active {
+  color: rgba(0, 0, 0, 0.5);
+}
+.app-header .header-bar .app-launcher .launcher-btn.menu-button[disabled] {
+  border: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+.app-header .header-bar .app-launcher .launcher-btn.menu-button[disabled] .launcher-icon {
+  display: none;
+}
+.app-header .header-bar .app-launcher .launcher-btn .launcher-icon {
+  vertical-align: middle;
+  line-height: 22px;
+  font-size: 20px;
+  padding-left: 3px;
+}
+.app-header .header-bar .header-right {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  /*
+            .search-module-area > * {
+                position: relative;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+            */
+}
+.app-header .header-bar .header-right .search-module-area {
+  display: none;
+}
+.app-header .header-bar .header-right .user-nav {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.app-header .header-bar .header-right .user-nav li {
+  text-align: center;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+  display: inline-block;
+}
+.app-header .header-bar .header-right .user-nav li:last-child {
+  margin-right: 20px;
+}
+.app-header .header-bar .header-right .user-nav li button {
+  text-align: center;
+  width: 40px;
+  height: 60px;
+  padding: 0;
+  font-size: 16px !important;
+  position: relative;
+}
+.app-header .header-bar .header-right .user-nav li button:before {
+  border: 1px solid #363636;
+  padding: 10px;
+  border-radius: 50%;
+}
+.app-header .header-bar .header-right .user-nav li button.btn_pretrieve-header {
+  transition: color 0.5s ease;
+}
+.app-header .header-bar .header-right .user-nav li button.btn_pretrieve-header.has-content {
+  color: #fff;
+}
+.app-header .header-bar .header-right .user-nav li button.btn_pretrieve-header.has-content:before {
+  background: #363636;
+  border: none;
+}
+.app-header .header-bar .header-right .user-nav li button.btn_pretrieve-header.loading:before {
+  border: none;
+}
+.app-header .header-bar .header-right .user-nav li button.btn_pretrieve-header.loading:after {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  content: "";
+  border-radius: 50%;
+  border-top: solid #464342;
+  border-left: solid #dfdfdf;
+  border-right: solid #dfdfdf;
+  border-bottom: solid #dfdfdf;
+  -webkit-animation: spin .75s infinite linear;
+  -moz-animation: spin .75s infinite linear;
+  -o-animation: spin .75s infinite linear;
+  animation: spin .75s infinite linear;
+}
+.app-header .header-bar .header-right .user-nav li button.btn_pretrieve-header.error:after {
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 1px;
+  background: #363636;
+  top: 28px;
+  left: 0px;
+  z-index: 2;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -transform: rotate(135deg);
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.no-modules .menu-button.launcher-btn {
+  visibility: hidden;
+}
+.no-up-action {
+  visibility: hidden;
+}
+.phone .app-header {
+  height: 60px;
+  padding-left: 0;
+}
+.phone .app-header .header-bar {
+  background-color: white;
+  display: table;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.phone .app-header .header-bar .up-btn-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+.phone .app-header .header-bar .up-btn-wrap .up-btn {
+  height: 44px;
+  width: 44px;
+  padding: 0;
+}
+.phone .app-header .header-bar .up-btn-wrap .up-btn .no-up-action {
+  visibility: hidden;
+}
+.phone .app-header .header-bar .title-wrap {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  position: relative;
+}
+.phone .app-header .header-bar .title-wrap #app-header-title {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.phone .app-header .header-bar .user-nav-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+.phone .app-header .header-bar .user-nav-wrap .user-nav {
+  margin: 0;
+}
+.phone .app-header .header-bar .user-nav-wrap .user-nav li {
+  display: inline-block;
+}
+.popover .user-nav-content {
+  margin: 0;
+  min-width: 130px;
+}
+.popover .user-nav-content .user-panel {
+  margin-bottom: 10px;
+  padding-left: 40px;
+  min-height: 30px;
+}
+.popover .user-nav-content #user-icon {
+  float: left;
+  margin-right: 8px;
+  margin-left: -40px;
+}
+.popover .user-nav-content #user-name {
+  display: block;
+  font-size: 14px;
+}
+.popover .user-nav-content #server-name {
+  display: block;
+  text-transform: uppercase;
+  color: #999;
+  font-size: 11px;
+  margin-top: 4px;
+}
+.popover .user-nav-content .toolbar-control {
+  border-bottom: 0;
+  padding: 0;
+}
+.popover .user-nav-content .user-panel + .toolbar-control {
+  border-top: 1px solid #d4d4d4;
+}
+.popover .user-nav-content .button-group {
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin: 10px 0 0;
+}
+.popover .user-nav-content .button-group button {
+  width: 33.3333%;
+  display: table-cell;
+}
+/* App Header */
+#container {
+  width: 100%;
+  background: #f3f3f3;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#mainView {
+  height: 100%;
+  overflow: hidden;
+}
+#mainView.has-header .app-header {
+  display: block;
+}
+#mainView.has-header #window {
+  padding-top: 60px;
+}
+#window {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  z-index: 0;
+}
+.container #window.hosted {
+  left: 10px;
+  top: 10px;
+}
+.module {
+  position: relative;
+  overflow: auto;
+  padding: 20px;
+  height: 100%;
+}
+.full {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.content-viewer-section {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  bottom: 0;
+  right: 0;
+  padding: 40px 40px 0 40px;
+  margin-left: 10px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+}
+.content-viewer-section > div:first-of-type {
+  height: 100%;
+}
+.content-viewer-section span.zero-state-msg-panel {
+  display: block;
+  padding: 300px 0;
+  text-align: center;
+  width: 300px;
+  height: 100%;
+  margin: 0 auto;
+}
+.content-viewer-wrap {
+  position: relative;
+  height: 100%;
+}
+.criticalError {
+  text-align: center;
+  background-color: white;
+  height: 100%;
+  margin: 0;
+  padding: 30px;
+}
+body.hosted.desktop #shell-content {
+  height: auto;
+}
+body.hosted.desktop #window.hosted {
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 3px;
+  /*This is to get a bit of spacing to match the other side*/
+  border-radius: 0px;
+  border: 1px solid #aaa;
+}
+.hosted.desktop #documentView-list-treeControl.tree {
+  border: 1px solid #96a3af;
+  background-color: #c1c9d0;
+}
+body.hosted.desktop #mainView {
+  background: #eee;
+  /*This is to get a bit of spacing to match the other side*/
+}
+/* App Window */
+.settings {
+  overflow: auto;
+  min-width: 720px;
+}
+.settings h2 {
+  clear: none;
+  margin-top: 4px;
+}
+.settings h3 {
+  clear: none;
+  margin: 10px 0;
+}
+.settings .legal-information {
+  display: block;
+  margin: 4px 0;
+}
+.settings-close-btn {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+/* Left Nav */
+.settings-left-nav {
+  float: left;
+  width: 200px;
+}
+.settings-left-nav ul {
+  margin: 8px 0 0 0;
+  background-color: transparent;
+  padding: 0;
+}
+.settings-left-nav li a {
+  height: 37px;
+  line-height: 37px;
+  display: block;
+  color: #363636;
+}
+.settings-left-nav-title {
+  border-bottom: 1px solid #cccccc;
+  white-space: nowrap;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+.settings-content {
+  margin: 0 20px 20px 265px;
+}
+.settings-group .radio .icon {
+  display: none;
+}
+.settings-header {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+.tech-specs {
+  display: table;
+  width: auto;
+  margin: 10px 0 0 0;
+}
+.tech-specs .row {
+  display: table-row;
+}
+.tech-specs .label {
+  font-weight: bold;
+  display: table-cell;
+  padding: 3px 0;
+}
+.tech-specs .value {
+  text-align: left;
+  font-weight: normal;
+  padding: 3px 0 3px 10px;
+  display: table-cell;
+}
+/* Mobile Styles */
+.phone .settings {
+  position: relative;
+  height: 100%;
+  min-width: 0;
+}
+.phone .settings .settings-nav {
+  height: 100%;
+}
+.phone .settings .page-content {
+  display: none;
+}
+.phone .settings.show-page-content .settings-nav {
+  display: none;
+}
+.phone .settings.show-page-content .page-content {
+  display: block;
+}
+.phone .settings-group-header {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  margin-bottom: 4px;
+}
+.phone .settings-group {
+  border: none;
+  margin-top: 20px;
+}
+.phone .about {
+  padding: 0 16px;
+}
+.phone .about .tech-specs {
+  font-size: 1.4rem;
+}
+.phone .about .legal-information {
+  padding: 14px 0;
+  font-size: 1.4rem;
+}
+.phone .about .about-packages .item-panel {
+  padding: 0;
+}
+.phone .about .about-packages .panel-item-content {
+  padding: 16px 44px 16px 16px;
+}
+.phone .about .about-packages .panel-item[aria-expanded="true"] h3 {
+  margin-bottom: 16px;
+}
+.phone .about .about-packages .panel-item[aria-expanded="true"] a {
+  display: block;
+  padding: 14px 0 14px 10px;
+  font-size: 1.4rem;
+}
+.phone .about .about-packages h3 {
+  margin: 0;
+}
+.phone .about .about-packages ul {
+  margin: 0 0 0 10px;
+}
+.phone .about .about-packages li {
+  font-size: 0.95em;
+  margin: 2px 0;
+}
+/* Settings */
+#titlebar {
+  display: none;
+}
+.hosted.desktop #titlebar {
+  display: block;
+  background-color: #eee;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+}
+.hosted.desktop #titlebar .window-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hosted.desktop #titlebar .window-controls a {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 6px;
+  margin-left: 2px;
+  background-color: white;
+}
+body.phone #container {
+  -webkit-overflow-scrolling: touch;
+}
+body.phone #window {
+  overflow: auto;
+}
+body.phone .module {
+  padding: 0;
+}
+body.phone .nav-tree {
+  width: 100%;
+}
+body.phone .nav-tree .icon-place-holder {
+  float: right;
+  padding-top: 5px;
+}
+body.phone .content-viewer-section {
+  left: 0px !important;
+  padding: 0;
+}
+body.phone .content-viewer-wrap {
+  left: 0 !important;
+}
+/* Mobile Styles*/
+body.tablet {
+  /* Touch control styles */
+}
+body.tablet .nav-tree {
+  width: 175px;
+}
+body.tablet .content-viewer-wrap {
+  left: 188px;
+}
+body.tablet .pane-content {
+  top: 60px;
+}
+body.tablet .viewer-pane-list {
+  top: 60px;
+}
+body.tablet .content-viewer-section {
+  left: 175px !important;
+}
+body.tablet .content-viewer-wrap {
+  left: 0 !important;
+}
+body.tablet.fullscreen .content-viewer-wrap {
+  left: 0 !important;
+  top: 60px !important;
+}
+/* Tablet Styles*/

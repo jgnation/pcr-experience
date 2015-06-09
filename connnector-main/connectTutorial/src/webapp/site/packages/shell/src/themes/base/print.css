@@ -1,0 +1,66 @@
+@media print
+{
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+    -ms-filter: none !important; margin:0; padding:0; height:auto; width:auto;}
+    a, a:visited { color: #444 !important; text-decoration: underline; }
+    a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; }
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3{ page-break-after: avoid; }
+    #header,
+    #nav,
+    #sidebar,
+    #footer,
+    header.app-header,
+    #navTreeSection,
+    .viewer-pane-wrapper,
+    .thumbnails-pane {
+        display: none !important;
+    }
+    ol.pages {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    ol.pages li {
+        text-align:center;
+        margin:auto;
+    }
+    .module {
+        padding: 0px !important;
+        overflow: hidden !important;
+    }
+    #window {
+        padding-top: 0px !important;
+    }
+    body.printing-element > * {
+        display: none; 
+    }
+    .print-auto-height {
+        
+        height: auto !important;
+    }
+    .print-hidden {
+        display: none !important;
+    }
+    .print-visible {
+        display: block !important;
+    }
+    .print-page-break-after {
+        page-break-after: always;
+        display: block;
+    }
+    .print-page-break-before {
+        page-break-before: always;
+        display: block;
+    }
+    .print-fit-width {
+        max-width: 100% !important;
+    }
+}

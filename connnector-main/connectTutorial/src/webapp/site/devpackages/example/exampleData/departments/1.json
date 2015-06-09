@@ -1,0 +1,24 @@
+{
+    "id": 1,
+    "name": "R&D",
+    "employees": [
+        {
+            "name": "Salamander Hammerhead",
+            "id": 654,
+            "started": 1286946000000,
+            "hours": 654.04
+        },
+        {
+            "name": "Bobby Socks",
+            "id": 798,
+            "started": 1393653600000,
+            "hours": 16040.04
+        },
+        {
+            "name": "Steve Doublesteve",
+            "id": 1,
+            "started": 597736800000,
+            "hours": 17.755
+        }
+    ]
+}

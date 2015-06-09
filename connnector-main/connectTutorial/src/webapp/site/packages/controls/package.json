@@ -1,0 +1,16 @@
+{
+    "name": "controls",
+    "version": "2.24.0",
+    "dependencies": {
+        "core": "^1"
+    },
+    "main": "src/controls",
+    "config": {
+        "stylesheet": "src/styles.css"
+    },
+    "publishConfig": {
+        "registry": "http://devrepositoryd00.pvi.com:8181/"
+    },
+    "resources": "src/resources/locales",
+    "build": "unspecified"
+}

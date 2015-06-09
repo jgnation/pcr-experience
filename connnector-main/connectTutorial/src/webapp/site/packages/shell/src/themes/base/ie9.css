@@ -1,0 +1,37 @@
+.pane-content {
+    zoom: 1;
+    width: 249px !important;
+    box-sizing: content-box;
+}
+.thumbnails-pane {
+    height: 164px !important;
+    box-sizing: content-box;
+}
+.nav-tree {
+    width: 226px !important;
+    box-sizing: content-box;
+}
+.doc-host img {
+    filter: none !important;
+}
+a.button .icon-16,
+button .icon-16,
+input[type="button"] .icon-16,
+input[type="reset"] .icon-16,
+input[type="submit"] .icon-16 {
+    line-height: 12px !important;
+    vertical-align: bottom;
+}
+.login label {
+    left:0 !important;
+    position:static !important;
+    width:260px !important;
+    margin:0 auto 2px;
+    text-align: left !important;
+    font-weight:bold;
+    height:auto!important;
+}
+.login input+label {
+    margin-top:12px;
+}
+.login input[type="password"] {margin-top:0!important;}

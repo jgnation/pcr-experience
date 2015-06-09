@@ -1,0 +1,79 @@
+{
+    "shell": {
+        "loginView": {
+            "userNameField": "User name",
+            "passwordField": "Password",
+            "signInButton": "Connect",
+            "titlebarText": "Log in",
+
+            "enterUsername": "A username is required.",
+            "enterPassword": "A password is required.",
+            "sslWarning": "You are viewing the application over a connection that is not secure. Your user name and password will be unencrypted when transmitted. Before you log in, contact your administrator."
+        },
+
+        "mainView": {
+            "noModulesListed": "There are no modules listed.",
+            "settings": {
+                "aboutPageTitle": "About",
+                "globalPageTitle": "Global",
+                "titlebarText": "Settings",
+                "closeSettingsLabel": "Close settings",
+
+                "about": {
+                    "header": "About {productName}",
+                    "packagesAndDependencies": "Packages and Dependencies",
+
+                    "label": {
+                        "productName": "Product name:",
+                        "version": "Version:",
+                        "browser": "Browser:",
+                        "screenSize": "Screen Size:",
+                        "operatingSystem": "Operating System:",
+                        "legalInformation": "Legal Information",
+                        "packageDependencies": "Dependencies",
+                        "noPackageDependencies": "No Dependencies"
+                    }
+
+                },
+
+                "language": {
+                    "header": "Language",
+                    "browserDefault": "Use browser default"
+                },
+                "logging": {
+                    "header": "Logging",
+                    "loggingLevels": {
+                        "header": "Logging Level",
+                        "allMessages": "All Messages",
+                        "warningsAndErrors": "Warnings & Errors",
+                        "errorsOnly": "Errors Only"
+                    },
+                    "showLogWindow": "Show Log Window"
+                }
+            },
+
+            "help": "Help",
+            "userMenu": {
+                "altText": "User Menu",
+                "settings": "Settings",
+                "disconnect": "Disconnect"
+            },
+
+            "disconnectVerificationDialog": {
+                "title": "Exit",
+                "prompt": "There are pending operations that might not finish. Do you still want to exit?"
+            },
+            "navigateVerificationPromptMessage": "There are pending operations that might not finish. Do you still want to exit?",
+            "preLoginMobileAppBarTitle": "Actions",
+            "postLoginMobileAppBarTitle": "Modules",
+            "applicationToolbarCaption": "Application Toolbar",
+            "successfulLoginAccessibleMessage": "You are successfully logged in.",
+            "logoutConfirmationMessage": "You are successfully logged out. Close your browser window.",
+            "logoutErrorMessage": "The application is incorrectly configured.  Contact your administrator.",
+            "upButtonAltText": "Up",
+            "missingResource": "The requested resource was not found.",
+            "moduleNotOfflineCompatible": "The module \"{name}\" is not available in offline mode",
+            "unhandledError": "An unexpected error occurred."
+        }
+    }
+}

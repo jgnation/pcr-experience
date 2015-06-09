@@ -1,0 +1,59 @@
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-light.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-lightitalic.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-lightitalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-regular.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-regularitalic.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-regularitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-medium.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-mediumitalic.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-mediumitalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-semibold.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-semibolditalic.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-semibolditalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-bold.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: myTPHero;
+    src: url('fonts/TPHero/WOFF2/tphero-bolditalic.woff2') format('woff2'), url('fonts/TPHero/WOFF/tphero-bolditalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}

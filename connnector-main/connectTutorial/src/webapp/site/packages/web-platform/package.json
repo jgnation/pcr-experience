@@ -1,0 +1,13 @@
+{
+    "name": "web-platform",
+    "version": "2.0.2",
+    "dependencies": {
+        "core": "^1.10"
+    },
+    "main": "src/exports",
+    "publishConfig": {
+        "registry": "http://devrepositoryd00.pvi.com:8181/"
+    },
+    "resources": "src/resources/locales",
+    "build": "unspecified"
+}

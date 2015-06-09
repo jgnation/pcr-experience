@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "R&D",
+        "employees": [
+            {
+                "name": "Salamander Hammerhead",
+                "id": 654,
+                "started": 1286946000000,
+                "hours": 654.04
+            },
+            {
+                "name": "Bobby Socks",
+                "id": 798,
+                "started": 1393653600000,
+                "hours": 16040.04
+            },
+            {
+                "name": "Steve Doublesteve",
+                "id": 1,
+                "started": 597736800000,
+                "hours": 17.755
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sales",
+        "employees": [
+            {
+                "name": "Cobbler Blacksmith",
+                "id": 34,
+                "started": 644389200000,
+                "hours": 1204.5
+            },
+            {
+                "name": "Dunk Johnson",
+                "id": 345,
+                "started": 946706400000,
+                "hours": 14.5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "IT",
+        "employees": [
+            {
+                "name": "Monica Labrador",
+                "id": 35,
+                "started": 644389200000,
+                "hours": 100.5
+            },
+            {
+                "name": "Carlos Waterslide",
+                "id": 145,
+                "started": 892789200000,
+                "hours": 75.888
+            },
+            {
+                "name": "Teddy Nuggets",
+                "id": 377,
+                "started": 978328800000,
+                "hours": 1.2
+            },
+            {
+                "name": "Heather Kerfuffle",
+                "id": 87,
+                "started": 792655200000,
+                "hours": 1010111.79651
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Support",
+        "employees": [
+            {
+                "name": "Roger Flopple",
+                "id": 700,
+                "started": 1369026000000,
+                "hours": 500.00
+            },
+            {
+                "name": "Natasha Mascara",
+                "id": 194,
+                "started": 838702800000,
+                "hours": 13.5
+            },
+            {
+                "name": "Kat Skinner",
+                "id": 505,
+                "started": 1094187600000,
+                "hours": 9846541.5
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+.login input[type="text"], .login input[type="password"] {
+    line-height: 30px;
+}
+.app-header {
+    filter: none !important;
+    zoom: 1;
+}
+.page-thumbnails-pane {
+    overflow-y: hidden !important;
+    overflow-x: scroll !important;
+}
+a.button .icon-16,
+button .icon-16,
+input[type="button"] .icon-16,
+input[type="reset"] .icon-16,
+input[type="submit"] .icon-16 {
+    line-height: 9px !important;
+    vertical-align: bottom;
+}

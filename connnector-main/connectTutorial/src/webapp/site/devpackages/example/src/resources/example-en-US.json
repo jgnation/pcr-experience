@@ -1,0 +1,14 @@
+{
+    "example": {
+        "title": "Example",
+
+        "users": {
+            "information": {
+                "name": "Name",
+                "id": "Identification Number",
+                "started": "Start Date",
+                "hours": "Hours"
+            }
+        }
+    }
+}

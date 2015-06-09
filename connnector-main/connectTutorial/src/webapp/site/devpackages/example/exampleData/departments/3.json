@@ -1,0 +1,30 @@
+{
+    "id": 3,
+    "name": "IT",
+    "employees": [
+        {
+            "name": "Monica Labrador",
+            "id": 35,
+            "started": 644389200000,
+            "hours": 100.5
+        },
+        {
+            "name": "Carlos Waterslide",
+            "id": 145,
+            "started": 892789200000,
+            "hours": 75.888
+        },
+        {
+            "name": "Teddy Nuggets",
+            "id": 377,
+            "started": 978328800000,
+            "hours": 1.2
+        },
+        {
+            "name": "Heather Kerfuffle",
+            "id": 87,
+            "started": 792655200000,
+            "hours": 1010111.79651
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "controls": {
+        "cancelButtonLabel": "Cancel",
+        "closeButtonLabel": "Close",
+        "closeTabTooltip": "Close tab",
+        "loadMore": "Load more results . . .",
+        "moreInfoLabel": "More . . .",
+        "noButtonLabel": "No",
+        "okButtonLabel": "OK",
+        "overflowLabel": "More",
+        "showAgainLabel": "Don't show this again",
+        "submitButtonText": "Submit",
+        "undoLabel": "Undo",
+        "unstructuredItems": "Unstructured",
+        "yesButtonLabel": "Yes"
+    }
+}

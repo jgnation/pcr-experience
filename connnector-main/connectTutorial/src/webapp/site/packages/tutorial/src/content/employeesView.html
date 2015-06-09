@@ -1,0 +1,13 @@
+<div>
+    {{#if model}}
+        <p>This is the {{model.name}} department</p>
+        <span>Employees:</span>
+        <ul>
+            {{#each model.employees}}
+                <li><span>{{this}}</span></li>
+            {{/each}}
+        </ul>
+    {{else}}
+        <span>{{i18n 'employees.employeesMessage'}}</span>
+    {{/if}}
+</div>

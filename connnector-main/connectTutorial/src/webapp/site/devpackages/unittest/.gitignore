@@ -1,0 +1,21 @@
+# Gradle
+.gradle
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Idea
+*.iml
+.idea/
+
+# Git
+*.orig
+
+# Javascript builds
+build_working/
+build_output/
+
+# Gradle builds
+build/

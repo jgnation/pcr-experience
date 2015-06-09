@@ -1,0 +1,7 @@
+{
+    "employees": {
+        "hello": "Hello World!",
+        "selectDepartment": "Please select a department:",
+        "employeesMessage": "Soon, names of employees will go here"
+    }
+}

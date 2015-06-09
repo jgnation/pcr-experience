@@ -1,0 +1,7 @@
+{
+    "en": "src/resources/example-en-US",
+    "fr": "src/resources/example-fr-FR",
+    "de": "src/resources/example-de-DE",
+
+    "root": "en"
+}

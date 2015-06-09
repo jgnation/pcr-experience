@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" deactivate="deactivate" modified="modified" name="Static Pages Http Component">
+   <implementation class="org.connectTutorial.staticPages"/>
+   <reference bind="bind" cardinality="1..1" interface="org.osgi.service.http.HttpService" name="HTTP Service" policy="dynamic" unbind="unbind"/>
+   <reference bind="bind" cardinality="1..1" interface="com.perceptivesoftware.pif.common.authentication.AuthenticationService" name="AuthenticationService" policy="dynamic" unbind="unbind"/>
+</scr:component>

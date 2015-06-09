@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: endpoint Endpoint
+Bundle-SymbolicName: connectTutorial
+Bundle-Version: 0.0.1.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: OSGI-INF/*.xml
+Bundle-Category: Perceptive:Connector
+Import-Package: com.perceptivesoftware.pif.common.component;version="[0.0.0,2.0.0)",
+ org.slf4j,
+ com.perceptivesoftware.pif.common.webservice;version="[0.0.0,2.0.0)",
+ com.perceptivesoftware.pif.util;version="[0.0.0,2.0.0)",
+ javax.ws.rs;version="2.0.0.m10",
+ javax.ws.rs.core;version="2.0.0.m10",
+ org.osgi.service.http;version="[1.2.0,2.0.0)",
+ org.codehaus.jackson;version="1.6.0",
+ org.codehaus.jackson.jaxrs;version="1.6.0",
+ org.codehaus.jackson.map;version="1.6.0",
+ org.codehaus.jackson.type;version="1.6.0"

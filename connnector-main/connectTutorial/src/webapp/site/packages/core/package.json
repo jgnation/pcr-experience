@@ -1,0 +1,11 @@
+{
+    "name": "core",
+    "version": "1.13.2",
+    "main": "src/exports",
+    "description": "Contains the basic api, core, and shell for the Perceptive client framework",
+    "publishConfig": {
+        "registry": "http://devrepositoryd00.pvi.com:8181/"
+    },
+    "resources": "src/resources/locales",
+    "build": "unspecified"
+}

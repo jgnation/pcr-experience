@@ -1,0 +1,17 @@
+{
+    "serverUrl": "/integrationserver",
+    "sessionKeepAliveHeartBeatInterval": 600000,
+    "sessionTimeoutSeconds": 1800,
+    "helpUrl": "https://docs.perceptivesoftware.com/Perceptive_Web/en_US/1.0/Desktop/PWD.htm",
+    "helpPage": "",
+    "loggingLevel": "INFO",
+    "loggingMethod": "Console",
+    "modules": [
+        "tutorial:EmployeeModule"
+    ],
+    "connection": "example:BasicConnection",
+    "packagePaths": {
+        "example": "devpackages/example",
+        "unittest": "devpackages/unittest"
+    }
+}

@@ -1,0 +1,10 @@
+lib/
+target/
+.settings/
+.project
+.classpath
+bin/
+*.db
+logs/
+metrics/
+*.zip

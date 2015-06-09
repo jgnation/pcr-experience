@@ -1,0 +1,27 @@
+{
+    "core": {
+        "session": {
+            "communicationError": "An error occurred communicating with the server.",
+            "requestAborted": "An error occurred communicating with the server: request was aborted",
+            "sessionExpired": "Your session has timed out due to inactivity.",
+            "invalidSession": "Invalid session.",
+            "serverError": "An internal server error has occurred.",
+            "badRequest": "Malformed request.",
+            "resourceNotFound": "Resource not found.",
+            "requestForbidden": "Request forbidden.",
+            "unknownErrorOccured": "Unknown error."
+        },
+        "startup": {
+            "packageLoadFail": "The application cannot load a package file. Verify that the following package file is valid and the application is correctly installed and configured. {pkgName}",
+            "manifestLoadFail": "The application cannot find a package file. Verify that the following package file is valid and the application is correctly installed and configured. {fileName}",
+            "packageVersionFail": "The system cannot locate the appropriate version of a package dependency. Contact your administrator to verify the version of the following package and dependency.<br/>Package: {pkg}<br/>Dependency: {dep}",
+            "cookiesDisabledFail": "To start this product, enable cookies in your browser.",
+            "configSyntaxFail": "This product cannot start. Contact your administrator to review and validate the values and syntax in the configuration file.",
+            "packageResourceLoadFail": "To start this product, the resource files must be available. Verify that the package is configured correctly for the following package. {pkgName}"
+        },
+        "runtime": {
+            "invalidNavigationFail": "The location is unavailable because the URL contains a destination outside of the active module. Contact your administrator for assistance.",
+            "eventLogViewerTitle": "Event Log"
+        }
+    }
+}
